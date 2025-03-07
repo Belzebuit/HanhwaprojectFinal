@@ -1,0 +1,105 @@
+
+먼저 딥러닝 같은 경우( lstm, gru, rnn, cnn)train, val, test를 분리하여 분석 실시.
+val를 추가한 이유는 하이퍼파라미터 튜닝이나 조기 종료(early stopping) 등의 결정을 내리기 위해 사용됨.
+
+###주의!!! 실행시 1시간 걸림###
+
+feature_cols = ['SO2','CO','O3','NO2','O3','PM25','최고기온(℃)', '평균풍속(m/s)','Traffic','Cases_lag1']
+
+=== 각 모델별 Best Time Steps (MAPE 기준) ===
+[LSTM] Best Time Steps: 11, MAPE: 0.996, Hyperparams: {'lstm_units': 128, 'dropout_rate': 0.5, 'learning_rate': 0.0003755355283756107, 'batch_size': 16, 'num_layers': 1}
+[GRU]  Best Time Steps: 12, MAPE: 0.960, Hyperparams: {'gru_units': 32, 'dropout_rate': 0.5, 'learning_rate': 0.00017083336122692547, 'batch_size': 64, 'num_layers': 1}
+[RNN]  Best Time Steps: 14, MAPE: 0.982, Hyperparams: {'rnn_units': 32, 'dropout_rate': 0.30000000000000004, 'learning_rate': 0.0007050850795539719, 'batch_size': 16, 'num_layers': 1}
+[CNN]  Best Time Steps: 5, MAPE: 0.999, Hyperparams: {'conv_filters': 16, 'kernel_size': 3, 'dropout_rate': 0.30000000000000004, 'batch_size': 32, 'optimizer_choice': 'rmsprop', 'learning_rate': 0.0003039073022702752, 'num_layers': 3}
+
+
+머신러닝이나 sarimax같은 경우 train, test만 분리해서 실시.
+별도의 validation set을 따로 분리하지 않고 교차검증(Cross Validation) 기법을 활용해 하이퍼파라미터 튜닝과 모델 평가를 진행
+
+sarimax 같은 경우
+ACF(자기상관 함수): Lag 1에서 강한 양의 상관관계가 있으며, 이후 급격히 감소함. 일부 lag에서 약간의 상관이 보이지만 전체적으로 유의하지 않음.
+PACF(부분 자기상관 함수): Lag 1에서 강한 양의 상관이 있으며, 그 이후 몇 개의 lag에서 약한 음의 상관이 존재.
+이를 통해 데이터가 AR(자기회귀) 성분과 MA(이동평균) 성분이 섞여 있는 형태임을 알 수 있다.
+
+2. order=(p,d,q) 설정
+p (AR 차수): PACF에서 Lag 1에서 높은 값을 보이므로 1로 설정 가능.
+d (차분 차수): 이미 diff(1)을 적용했으므로 1로 설정.
+q (MA 차수): ACF에서 Lag 1에서 높은 값을 보이며 이후 빠르게 감소하므로 1로 설정.
+→ 최종 order = (1,1,1)
+
+3. seasonal_order=(P,D,Q,S) 설정
+S(계절 주기): 계절성 주기가 7일(1주일) 단위라고 가정.
+D(계절 차분 차수): 계절성 차분이 필요하면 1로 설정, 필요 없으면 0으로 설정.
+P(계절 AR 차수): 계절성 PACF를 보고 결정하는데, 현재 그래프에서 계절성이 뚜렷하지 않음 → 0 또는 1.
+Q(계절 MA 차수): 계절성 ACF를 보고 결정하는데, 역시 뚜렷하지 않음 → 0 또는 1.
+→ 최종 seasonal_order = (0,0,1,7) 또는 (1,0,1,7)
+
+feature_cols = ['SO2','CO','O3','NO2','O3_lag8','PM25','Traffic','Cases_lag1']
+order=(1,0,1), seasonal_order=(0,0,1,7)
+
+SARIMAX 학습 완료! summary:
+                                      SARIMAX Results                                     
+=========================================================================================
+Dep. Variable:                             Cases   No. Observations:                  533
+Model:             SARIMAX(1, 0, 1)x(0, 0, 1, 7)   Log Likelihood               -1750.368
+Date:                           Thu, 13 Feb 2025   AIC                           3524.736
+Time:                                   00:48:03   BIC                           3575.874
+Sample:                                        0   HQIC                          3544.762
+                                           - 533                                         
+Covariance Type:                             opg                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+SO2         1740.5430   1.98e-06   8.78e+08      0.000    1740.543    1740.543
+CO           -10.6603      0.001  -1.86e+04      0.000     -10.661     -10.659
+O3           -23.4254   2.67e-05  -8.76e+05      0.000     -23.425     -23.425
+NO2          -32.5195   2.54e-05  -1.28e+06      0.000     -32.520     -32.519
+O3_lag8      -10.5229   2.91e-05  -3.61e+05      0.000     -10.523     -10.523
+PM25           0.0425      0.054      0.785      0.433      -0.064       0.149
+Traffic     1.194e-07    5.1e-08      2.342      0.019    1.95e-08    2.19e-07
+Cases_lag1     0.7116      0.013     56.286      0.000       0.687       0.736
+ar.L1         -0.1803      0.032     -5.701      0.000      -0.242      -0.118
+ma.L1          0.7579      0.025     30.670      0.000       0.709       0.806
+ma.S.L7       -0.0350      0.079     -0.441      0.659      -0.191       0.121
+sigma2        50.9849      0.002   2.89e+04      0.000      50.981      50.988
+===================================================================================
+Ljung-Box (L1) (Q):                   2.76   Jarque-Bera (JB):            366252.15
+Prob(Q):                              0.10   Prob(JB):                         0.00
+Heteroskedasticity (H):              70.31   Skew:                             7.65
+Prob(H) (two-sided):                  0.00   Kurtosis:                       131.61
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+[2] Covariance matrix is singular or near-singular, with condition number 9.65e+21. Standard errors may be unstable.
+[SARIMAX] MAE=3.855, RMSE=5.888, MAPE=0.468
+
+머신러닝은 Date, Cases열을 제외한 나머지 열들을 독립변수로 설정. 
+자기상관성을 고려하지 않는 Tree 형태의 분석 형태라서그렇기도 하고, 시계열 분석이 아닌지라, lag데이터들을 전부 넣어 분석을 진행.
+time_split = 3
+
+Best is trial 81 with value: 158925014559533.8.
+[I 2025-02-13 03:22:40,136] A new study created in memory with name: no-name-74cb514e-bdcf-4ad0-a439-4ebf7a882f49
+Best SVR parameters: {'kernel': 'poly', 'gamma': 0.00017349895544688666, 'C': 0.2444549676508652, 'epsilon': 0.010010753793560397}
+
+Best is trial 44 with value: 299222228588321.0.
+Best RF parameters: {'n_estimators': 50, 'criterion': 'squared_error', 'min_samples_split': 9, 'min_samples_leaf': 2, 'max_features': None}
+
+Best is trial 74 with value: 80273356794538.67.
+Best XGBoost parameters: {'booster': 'gbtree', 'eta': 0.05, 'base_score': 0.21779668820248127, 'max_depth': 10, 'min_child_weight': 1, 'tree_method': 'hist'}
+
+[SVM(SVR)_Optuna] MAE=11.167, RMSE=15.979, MAPE=0.807
+[RF_Optuna] MAE=2.637, RMSE=4.805, MAPE=0.196
+[XGBoost_Optuna] MAE=3.994, RMSE=7.531, MAPE=0.202
+
+prophet같은 경우 시계열 분석형 모델이기 때문에 
+lag 데이터는 하나씩 넣어보면서 최적의 모델을 찾아냄.
+feature_cols = ['SO2','CO','O3','NO2','평균최고기온(℃)','최대순간풍속(m/s)','PM10','일조합(hr)','PM25_lag5','Traffic','Cases_lag1']
+period=14
+[Prophet] MAE=4.524, RMSE=6.630, MAPE=0.565
+
+
+
+
+
+
