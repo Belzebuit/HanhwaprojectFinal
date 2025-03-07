@@ -1,0 +1,313 @@
+﻿Date_reported,Country_code,Country,WHO_region,New_cases,Cumulative_cases
+2020-01-05,JP,Japan,WPRO,0,0
+2020-01-12,JP,Japan,WPRO,0,0
+2020-01-19,JP,Japan,WPRO,1,1
+2020-01-26,JP,Japan,WPRO,2,3
+2020-02-02,JP,Japan,WPRO,12,15
+2020-02-09,JP,Japan,WPRO,10,25
+2020-02-16,JP,Japan,WPRO,27,52
+2020-02-23,JP,Japan,WPRO,80,132
+2020-03-01,JP,Japan,WPRO,107,239
+2020-03-08,JP,Japan,WPRO,216,455
+2020-03-15,JP,Japan,WPRO,325,780
+2020-03-22,JP,Japan,WPRO,266,1046
+2020-03-29,JP,Japan,WPRO,647,1693
+2020-04-05,JP,Japan,WPRO,1578,3271
+2020-04-12,JP,Japan,WPRO,3477,6748
+2020-04-19,JP,Japan,WPRO,3613,10361
+2020-04-26,JP,Japan,WPRO,2821,13182
+2020-05-03,JP,Japan,WPRO,1657,14839
+2020-05-10,JP,Japan,WPRO,908,15747
+2020-05-17,JP,Japan,WPRO,538,16285
+2020-05-24,JP,Japan,WPRO,265,16550
+2020-05-31,JP,Japan,WPRO,301,16851
+2020-06-07,JP,Japan,WPRO,290,17141
+2020-06-14,JP,Japan,WPRO,288,17429
+2020-06-21,JP,Japan,WPRO,435,17864
+2020-06-28,JP,Japan,WPRO,526,18390
+2020-07-05,JP,Japan,WPRO,1132,19522
+2020-07-12,JP,Japan,WPRO,1980,21502
+2020-07-19,JP,Japan,WPRO,3140,24642
+2020-07-26,JP,Japan,WPRO,4740,29382
+2020-08-02,JP,Japan,WPRO,7307,36689
+2020-08-09,JP,Japan,WPRO,10094,46783
+2020-08-16,JP,Japan,WPRO,7931,54714
+2020-08-23,JP,Japan,WPRO,7033,61747
+2020-08-30,JP,Japan,WPRO,5517,67264
+2020-09-06,JP,Japan,WPRO,4155,71419
+2020-09-13,JP,Japan,WPRO,3799,75218
+2020-09-20,JP,Japan,WPRO,3439,78657
+2020-09-27,JP,Japan,WPRO,3033,81690
+2020-10-04,JP,Japan,WPRO,3649,85339
+2020-10-11,JP,Japan,WPRO,3573,88912
+2020-10-18,JP,Japan,WPRO,3744,92656
+2020-10-25,JP,Japan,WPRO,3878,96534
+2020-11-01,JP,Japan,WPRO,4612,101146
+2020-11-08,JP,Japan,WPRO,5940,107086
+2020-11-15,JP,Japan,WPRO,9591,116677
+2020-11-22,JP,Japan,WPRO,13502,130179
+2020-11-29,JP,Japan,WPRO,14474,144653
+2020-12-06,JP,Japan,WPRO,15445,160098
+2020-12-13,JP,Japan,WPRO,17189,177287
+2020-12-20,JP,Japan,WPRO,18593,195880
+2020-12-27,JP,Japan,WPRO,21432,217312
+2021-01-03,JP,Japan,WPRO,26535,243847
+2021-01-10,JP,Japan,WPRO,42905,286752
+2021-01-17,JP,Japan,WPRO,41542,328294
+2021-01-24,JP,Japan,WPRO,36519,364813
+2021-01-31,JP,Japan,WPRO,24705,389518
+2021-02-07,JP,Japan,WPRO,15472,404990
+2021-02-14,JP,Japan,WPRO,10792,415782
+2021-02-21,JP,Japan,WPRO,9815,425597
+2021-02-28,JP,Japan,WPRO,7176,432773
+2021-03-07,JP,Japan,WPRO,7219,439992
+2021-03-14,JP,Japan,WPRO,7914,447906
+2021-03-21,JP,Japan,WPRO,8875,456781
+2021-03-28,JP,Japan,WPRO,11833,468614
+2021-04-04,JP,Japan,WPRO,16711,485325
+2021-04-11,JP,Japan,WPRO,20961,506286
+2021-04-18,JP,Japan,WPRO,27766,534052
+2021-04-25,JP,Japan,WPRO,32811,566863
+2021-05-02,JP,Japan,WPRO,35999,602862
+2021-05-09,JP,Japan,WPRO,37182,640044
+2021-05-16,JP,Japan,WPRO,43131,683175
+2021-05-23,JP,Japan,WPRO,35689,718864
+2021-05-30,JP,Japan,WPRO,25623,744487
+2021-06-06,JP,Japan,WPRO,17914,762401
+2021-06-13,JP,Japan,WPRO,12830,775231
+2021-06-20,JP,Japan,WPRO,10056,785287
+2021-06-27,JP,Japan,WPRO,10469,795756
+2021-07-04,JP,Japan,WPRO,11078,806834
+2021-07-11,JP,Japan,WPRO,13881,820715
+2021-07-18,JP,Japan,WPRO,20822,841537
+2021-07-25,JP,Japan,WPRO,28908,870445
+2021-08-01,JP,Japan,WPRO,65441,935886
+2021-08-08,JP,Japan,WPRO,95410,1031296
+2021-08-15,JP,Japan,WPRO,113250,1144546
+2021-08-22,JP,Japan,WPRO,155807,1300353
+2021-08-29,JP,Japan,WPRO,154011,1454364
+2021-09-05,JP,Japan,WPRO,117008,1571372
+2021-09-12,JP,Japan,WPRO,68173,1639545
+2021-09-19,JP,Japan,WPRO,37166,1676711
+2021-09-26,JP,Japan,WPRO,17964,1694675
+2021-10-03,JP,Japan,WPRO,10371,1705046
+2021-10-10,JP,Japan,WPRO,5927,1710973
+2021-10-17,JP,Japan,WPRO,3747,1714720
+2021-10-24,JP,Japan,WPRO,2218,1716938
+2021-10-31,JP,Japan,WPRO,5926,1722864
+2021-11-07,JP,Japan,WPRO,1336,1724200
+2021-11-14,JP,Japan,WPRO,1266,1725466
+2021-11-21,JP,Japan,WPRO,1008,1726474
+2021-11-28,JP,Japan,WPRO,669,1727143
+2021-12-05,JP,Japan,WPRO,799,1727942
+2021-12-12,JP,Japan,WPRO,878,1728820
+2021-12-19,JP,Japan,WPRO,1144,1729964
+2021-12-26,JP,Japan,WPRO,1825,1731789
+2020-01-05,GB,United Kingdom of Great Britain and Northern Ireland,EURO,,0
+2020-01-12,GB,United Kingdom of Great Britain and Northern Ireland,EURO,,0
+2020-01-19,GB,United Kingdom of Great Britain and Northern Ireland,EURO,,0
+2020-01-26,GB,United Kingdom of Great Britain and Northern Ireland,EURO,,0
+2020-02-02,GB,United Kingdom of Great Britain and Northern Ireland,EURO,1,1
+2020-02-09,GB,United Kingdom of Great Britain and Northern Ireland,EURO,20,21
+2020-02-16,GB,United Kingdom of Great Britain and Northern Ireland,EURO,11,32
+2020-02-23,GB,United Kingdom of Great Britain and Northern Ireland,EURO,3,35
+2020-03-01,GB,United Kingdom of Great Britain and Northern Ireland,EURO,33,68
+2020-03-08,GB,United Kingdom of Great Britain and Northern Ireland,EURO,311,379
+2020-03-15,GB,United Kingdom of Great Britain and Northern Ireland,EURO,1901,2280
+2020-03-22,GB,United Kingdom of Great Britain and Northern Ireland,EURO,5455,7735
+2020-03-29,GB,United Kingdom of Great Britain and Northern Ireland,EURO,16046,23781
+2020-04-05,GB,United Kingdom of Great Britain and Northern Ireland,EURO,28818,52599
+2020-04-12,GB,United Kingdom of Great Britain and Northern Ireland,EURO,32630,85229
+2020-04-19,GB,United Kingdom of Great Britain and Northern Ireland,EURO,30969,116198
+2020-04-26,GB,United Kingdom of Great Britain and Northern Ireland,EURO,33506,149704
+2020-05-03,GB,United Kingdom of Great Britain and Northern Ireland,EURO,31851,181555
+2020-05-10,GB,United Kingdom of Great Britain and Northern Ireland,EURO,24027,205582
+2020-05-17,GB,United Kingdom of Great Britain and Northern Ireland,EURO,20019,225601
+2020-05-24,GB,United Kingdom of Great Britain and Northern Ireland,EURO,16906,242507
+2020-05-31,GB,United Kingdom of Great Britain and Northern Ireland,EURO,11713,254220
+2020-06-07,GB,United Kingdom of Great Britain and Northern Ireland,EURO,8884,263104
+2020-06-14,GB,United Kingdom of Great Britain and Northern Ireland,EURO,7052,270156
+2020-06-21,GB,United Kingdom of Great Britain and Northern Ireland,EURO,6892,277048
+2020-06-28,GB,United Kingdom of Great Britain and Northern Ireland,EURO,5270,282318
+2020-07-05,GB,United Kingdom of Great Britain and Northern Ireland,EURO,4275,286593
+2020-07-12,GB,United Kingdom of Great Britain and Northern Ireland,EURO,4283,290876
+2020-07-19,GB,United Kingdom of Great Britain and Northern Ireland,EURO,4340,295216
+2020-07-26,GB,United Kingdom of Great Britain and Northern Ireland,EURO,4969,300185
+2020-08-02,GB,United Kingdom of Great Britain and Northern Ireland,EURO,5524,305709
+2020-08-09,GB,United Kingdom of Great Britain and Northern Ireland,EURO,6418,312127
+2020-08-16,GB,United Kingdom of Great Britain and Northern Ireland,EURO,7797,319924
+2020-08-23,GB,United Kingdom of Great Britain and Northern Ireland,EURO,7728,327652
+2020-08-30,GB,United Kingdom of Great Britain and Northern Ireland,EURO,8854,336506
+2020-09-06,GB,United Kingdom of Great Britain and Northern Ireland,EURO,15523,352029
+2020-09-13,GB,United Kingdom of Great Britain and Northern Ireland,EURO,22634,374663
+2020-09-20,GB,United Kingdom of Great Britain and Northern Ireland,EURO,25850,400513
+2020-09-27,GB,United Kingdom of Great Britain and Northern Ireland,EURO,44393,444906
+2020-10-04,GB,United Kingdom of Great Britain and Northern Ireland,EURO,74110,519016
+2020-10-11,GB,United Kingdom of Great Britain and Northern Ireland,EURO,110514,629530
+2020-10-18,GB,United Kingdom of Great Britain and Northern Ireland,EURO,120078,749608
+2020-10-25,GB,United Kingdom of Great Britain and Northern Ireland,EURO,151561,901169
+2020-11-01,GB,United Kingdom of Great Britain and Northern Ireland,EURO,153892,1055061
+2020-11-08,GB,United Kingdom of Great Britain and Northern Ireland,EURO,162260,1217321
+2020-11-15,GB,United Kingdom of Great Britain and Northern Ireland,EURO,175280,1392601
+2020-11-22,GB,United Kingdom of Great Britain and Northern Ireland,EURO,141113,1533714
+2020-11-29,GB,United Kingdom of Great Britain and Northern Ireland,EURO,106260,1639974
+2020-12-06,GB,United Kingdom of Great Britain and Northern Ireland,EURO,105190,1745164
+2020-12-13,GB,United Kingdom of Great Britain and Northern Ireland,EURO,138488,1883652
+2020-12-20,GB,United Kingdom of Great Britain and Northern Ireland,EURO,217712,2101364
+2020-12-27,GB,United Kingdom of Great Britain and Northern Ireland,EURO,243069,2344433
+2021-01-03,GB,United Kingdom of Great Britain and Northern Ireland,EURO,377718,2722151
+2021-01-10,GB,United Kingdom of Great Britain and Northern Ireland,EURO,422675,3144826
+2021-01-17,GB,United Kingdom of Great Britain and Northern Ireland,EURO,317881,3462707
+2021-01-24,GB,United Kingdom of Great Britain and Northern Ireland,EURO,246142,3708849
+2021-01-31,GB,United Kingdom of Great Britain and Northern Ireland,EURO,171875,3880724
+2021-02-07,GB,United Kingdom of Great Britain and Northern Ireland,EURO,130901,4011625
+2021-02-14,GB,United Kingdom of Great Britain and Northern Ireland,EURO,94014,4105639
+2021-02-21,GB,United Kingdom of Great Britain and Northern Ireland,EURO,80167,4185806
+2021-02-28,GB,United Kingdom of Great Britain and Northern Ireland,EURO,61484,4247290
+2021-03-07,GB,United Kingdom of Great Britain and Northern Ireland,EURO,41508,4288798
+2021-03-14,GB,United Kingdom of Great Britain and Northern Ireland,EURO,40316,4329114
+2021-03-21,GB,United Kingdom of Great Britain and Northern Ireland,EURO,38162,4367276
+2021-03-28,GB,United Kingdom of Great Britain and Northern Ireland,EURO,37987,4405263
+2021-04-04,GB,United Kingdom of Great Britain and Northern Ireland,EURO,27123,4432386
+2021-04-11,GB,United Kingdom of Great Britain and Northern Ireland,EURO,20330,4452716
+2021-04-18,GB,United Kingdom of Great Britain and Northern Ireland,EURO,17336,4470052
+2021-04-25,GB,United Kingdom of Great Britain and Northern Ireland,EURO,16722,4486774
+2021-05-02,GB,United Kingdom of Great Britain and Northern Ireland,EURO,15041,4501815
+2021-05-09,GB,United Kingdom of Great Britain and Northern Ireland,EURO,14468,4516283
+2021-05-16,GB,United Kingdom of Great Britain and Northern Ireland,EURO,15509,4531792
+2021-05-23,GB,United Kingdom of Great Britain and Northern Ireland,EURO,16918,4548710
+2021-05-30,GB,United Kingdom of Great Britain and Northern Ireland,EURO,22380,4571090
+2021-06-06,GB,United Kingdom of Great Britain and Northern Ireland,EURO,33779,4604869
+2021-06-13,GB,United Kingdom of Great Britain and Northern Ireland,EURO,49979,4654848
+2021-06-20,GB,United Kingdom of Great Britain and Northern Ireland,EURO,67059,4721907
+2021-06-27,GB,United Kingdom of Great Britain and Northern Ireland,EURO,107478,4829385
+2021-07-04,GB,United Kingdom of Great Britain and Northern Ireland,EURO,175476,5004861
+2021-07-11,GB,United Kingdom of Great Britain and Northern Ireland,EURO,225580,5230441
+2021-07-18,GB,United Kingdom of Great Britain and Northern Ireland,EURO,323274,5553715
+2021-07-25,GB,United Kingdom of Great Britain and Northern Ireland,EURO,257101,5810816
+2021-08-01,GB,United Kingdom of Great Britain and Northern Ireland,EURO,188020,5998836
+2021-08-08,GB,United Kingdom of Great Britain and Northern Ireland,EURO,193901,6192737
+2021-08-15,GB,United Kingdom of Great Britain and Northern Ireland,EURO,203157,6395894
+2021-08-22,GB,United Kingdom of Great Britain and Northern Ireland,EURO,232682,6628576
+2021-08-29,GB,United Kingdom of Great Britain and Northern Ireland,EURO,244811,6873387
+2021-09-05,GB,United Kingdom of Great Britain and Northern Ireland,EURO,258216,7131603
+2021-09-12,GB,United Kingdom of Great Britain and Northern Ireland,EURO,246171,7377774
+2021-09-19,GB,United Kingdom of Great Britain and Northern Ireland,EURO,203289,7581063
+2021-09-26,GB,United Kingdom of Great Britain and Northern Ireland,EURO,242060,7823123
+2021-10-03,GB,United Kingdom of Great Britain and Northern Ireland,EURO,235286,8058409
+2021-10-10,GB,United Kingdom of Great Britain and Northern Ireland,EURO,254728,8313137
+2021-10-17,GB,United Kingdom of Great Britain and Northern Ireland,EURO,305103,8618240
+2021-10-24,GB,United Kingdom of Great Britain and Northern Ireland,EURO,329421,8947661
+2021-10-31,GB,United Kingdom of Great Britain and Northern Ireland,EURO,285143,9232804
+2021-11-07,GB,United Kingdom of Great Britain and Northern Ireland,EURO,251477,9484281
+2021-11-14,GB,United Kingdom of Great Britain and Northern Ireland,EURO,266098,9750379
+2021-11-21,GB,United Kingdom of Great Britain and Northern Ireland,EURO,295358,10045737
+2021-11-28,GB,United Kingdom of Great Britain and Northern Ireland,EURO,301042,10346779
+2021-12-05,GB,United Kingdom of Great Britain and Northern Ireland,EURO,335799,10682578
+2021-12-12,GB,United Kingdom of Great Britain and Northern Ireland,EURO,364101,11046679
+2021-12-19,GB,United Kingdom of Great Britain and Northern Ireland,EURO,606364,11653043
+2021-12-26,GB,United Kingdom of Great Britain and Northern Ireland,EURO,921736,12574779
+2020-01-05,US,United States of America,AMRO,,0
+2020-01-12,US,United States of America,AMRO,,0
+2020-01-19,US,United States of America,AMRO,,0
+2020-01-26,US,United States of America,AMRO,7,7
+2020-02-02,US,United States of America,AMRO,2,9
+2020-02-09,US,United States of America,AMRO,11,20
+2020-02-16,US,United States of America,AMRO,4,24
+2020-02-23,US,United States of America,AMRO,16,40
+2020-03-01,US,United States of America,AMRO,33,73
+2020-03-08,US,United States of America,AMRO,391,464
+2020-03-15,US,United States of America,AMRO,3465,3929
+2020-03-22,US,United States of America,AMRO,27486,31415
+2020-03-29,US,United States of America,AMRO,94894,126309
+2020-04-05,US,United States of America,AMRO,176151,302460
+2020-04-12,US,United States of America,AMRO,219172,521632
+2020-04-19,US,United States of America,AMRO,196150,717782
+2020-04-26,US,United States of America,AMRO,205165,922947
+2020-05-03,US,United States of America,AMRO,198436,1121383
+2020-05-10,US,United States of America,AMRO,182246,1303629
+2020-05-17,US,United States of America,AMRO,169032,1472661
+2020-05-24,US,United States of America,AMRO,166325,1638986
+2020-05-31,US,United States of America,AMRO,146436,1785422
+2020-06-07,US,United States of America,AMRO,149780,1935202
+2020-06-14,US,United States of America,AMRO,151876,2087078
+2020-06-21,US,United States of America,AMRO,180021,2267099
+2020-06-28,US,United States of America,AMRO,258278,2525377
+2020-07-05,US,United States of America,AMRO,342166,2867543
+2020-07-12,US,United States of America,AMRO,392205,3259748
+2020-07-19,US,United States of America,AMRO,466267,3726015
+2020-07-26,US,United States of America,AMRO,467901,4193916
+2020-08-02,US,United States of America,AMRO,431250,4625166
+2020-08-09,US,United States of America,AMRO,375909,5001075
+2020-08-16,US,United States of America,AMRO,362662,5363737
+2020-08-23,US,United States of America,AMRO,315788,5679525
+2020-08-30,US,United States of America,AMRO,294946,5974471
+2020-09-06,US,United States of America,AMRO,295253,6269724
+2020-09-13,US,United States of America,AMRO,245621,6515345
+2020-09-20,US,United States of America,AMRO,280977,6796322
+2020-09-27,US,United States of America,AMRO,304774,7101096
+2020-10-04,US,United States of America,AMRO,298348,7399444
+2020-10-11,US,United States of America,AMRO,334249,7733693
+2020-10-18,US,United States of America,AMRO,387634,8121327
+2020-10-25,US,United States of America,AMRO,449438,8570765
+2020-11-01,US,United States of America,AMRO,559394,9130159
+2020-11-08,US,United States of America,AMRO,790094,9920253
+2020-11-15,US,United States of America,AMRO,1004845,10925098
+2020-11-22,US,United States of America,AMRO,1175483,12100581
+2020-11-29,US,United States of America,AMRO,1162401,13262982
+2020-12-06,US,United States of America,AMRO,1280932,14543914
+2020-12-13,US,United States of America,AMRO,1468482,16012396
+2020-12-20,US,United States of America,AMRO,1517928,17530324
+2020-12-27,US,United States of America,AMRO,1360122,18890446
+2021-01-03,US,United States of America,AMRO,1380995,20271441
+2021-01-10,US,United States of America,AMRO,1667151,21938592
+2021-01-17,US,United States of America,AMRO,1589955,23528547
+2021-01-24,US,United States of America,AMRO,1265861,24794408
+2021-01-31,US,United States of America,AMRO,1068625,25863033
+2021-02-07,US,United States of America,AMRO,857250,26720283
+2021-02-14,US,United States of America,AMRO,670572,27390855
+2021-02-21,US,United States of America,AMRO,473485,27864340
+2021-02-28,US,United States of America,AMRO,465751,28330091
+2021-03-07,US,United States of America,AMRO,420739,28750830
+2021-03-14,US,United States of America,AMRO,384000,29134830
+2021-03-21,US,United States of America,AMRO,379551,29514381
+2021-03-28,US,United States of America,AMRO,417818,29932199
+2021-04-04,US,United States of America,AMRO,449960,30382159
+2021-04-11,US,United States of America,AMRO,455950,30838109
+2021-04-18,US,United States of America,AMRO,467217,31305326
+2021-04-25,US,United States of America,AMRO,406095,31711421
+2021-05-02,US,United States of America,AMRO,338407,32049828
+2021-05-09,US,United States of America,AMRO,292324,32342152
+2021-05-16,US,United States of America,AMRO,233350,32575502
+2021-05-23,US,United States of America,AMRO,181609,32757111
+2021-05-30,US,United States of America,AMRO,147811,32904922
+2021-06-06,US,United States of America,AMRO,99112,33004034
+2021-06-13,US,United States of America,AMRO,99565,33103599
+2021-06-20,US,United States of America,AMRO,80627,33184226
+2021-06-27,US,United States of America,AMRO,87637,33271863
+2021-07-04,US,United States of America,AMRO,97037,33368900
+2021-07-11,US,United States of America,AMRO,286510,33655410
+2021-07-18,US,United States of America,AMRO,222579,33877989
+2021-07-25,US,United States of America,AMRO,359027,34237016
+2021-08-01,US,United States of America,AMRO,547086,34784102
+2021-08-08,US,United States of America,AMRO,743056,35527158
+2021-08-15,US,United States of America,AMRO,886464,36413622
+2021-08-22,US,United States of America,AMRO,1019966,37433588
+2021-08-29,US,United States of America,AMRO,1094890,38528478
+2021-09-05,US,United States of America,AMRO,1144251,39672729
+2021-09-12,US,United States of America,AMRO,1022570,40695299
+2021-09-19,US,United States of America,AMRO,1037454,41732753
+2021-09-26,US,United States of America,AMRO,852294,42585047
+2021-10-03,US,United States of America,AMRO,755688,43340735
+2021-10-10,US,United States of America,AMRO,681984,44022719
+2021-10-17,US,United States of America,AMRO,582237,44604956
+2021-10-24,US,United States of America,AMRO,508543,45113499
+2021-10-31,US,United States of America,AMRO,526186,45639685
+2021-11-07,US,United States of America,AMRO,510211,46149896
+2021-11-14,US,United States of America,AMRO,557180,46707076
+2021-11-21,US,United States of America,AMRO,676876,47383952
+2021-11-28,US,United States of America,AMRO,592394,47976346
+2021-12-05,US,United States of America,AMRO,751017,48727363
+2021-12-12,US,United States of America,AMRO,834969,49562332
+2021-12-19,US,United States of America,AMRO,899109,50461441
+2021-12-26,US,United States of America,AMRO,1417419,51878860
